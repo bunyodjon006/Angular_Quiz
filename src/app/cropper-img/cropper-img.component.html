@@ -1,0 +1,5 @@
+<div [style.width]="ImageWidth() + 'px'" class="contents" >
+    <img class="mat-elevation-z5" [src]="imageSource()" [width]="ImageWidth()" [height]="ImageHeight()" >
+</div>
+<input #InputField type="file" hidden (change)="fileSelected($event)" (click)="InputField.value=''" >
+<h2 mat-button (click)="InputField.click()">Upload Photo</h2>

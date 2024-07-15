@@ -1,0 +1,135 @@
+<div class="main"  >
+    <div class="mains" *ngIf="menu">
+        <header  data-aos="fade-up">
+            <nav>
+                <div> <img src="./assets/logo.png" alt="Angular Logo"></div>
+               
+                <ul>
+                    <li>Explore</li>
+                    <li>Problems</li>
+                    <li>Contest</li>
+                    <li>Discuss</li>
+                    <li>Interview</li>
+                    <li class="store">Store</li>
+                </ul>
+              
+                <div>  <mat-icon (click)="onClicks()">menu</mat-icon></div>
+            </nav>
+            
+        </header>
+    </div><div *ngIf="close" class="dropdown">
+                <div class="register_page">
+                    <div class="texts_drop">
+                    <p>Register | SignIn  </p></div>
+                    <div class="icon_drop"> <mat-icon (click)="Close()">close</mat-icon></div>
+                </div>
+                <div class="header_drop">
+                    <ul>
+                        <li> <mat-icon>explore</mat-icon> <span>Explore</span></li>
+                        <li> <mat-icon>list_alt</mat-icon> <span>Problems</span></li>
+                        <li> <mat-icon>eject</mat-icon> <span>Discuss</span> </li>
+                        <li> <mat-icon>wine_bar</mat-icon> <span>Contest</span></li>
+                        <li> <mat-icon>call_to_action</mat-icon> <span>Interview</span></li>
+                        <li> <mat-icon>archive</mat-icon> <span>Store</span></li>
+                    </ul>
+                </div>
+            </div>
+    <div *ngIf="menu"   class="content-card_page">
+        <div class="containers_cards-page">
+            <div class="content_card-1">
+                <div  data-aos="fade-up" data-aos-duration="3000" class="typescript_page">
+                    <div class="typescript-card_right">
+    <p>Quizz</p>
+    <div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500" class="typescript-card_title"><h3>Typescript Fundamentals</h3></div>
+    <p class="questionss">Frontend questions</p>
+    
+                    </div>
+                    <div class="typescript-card_left">
+                        <div class="questions_texts">
+                            <p>30 questions</p>
+                            <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+                        </div>
+                        <div class="titles-cards">
+                            <h3>Angular & Typescript</h3>
+                        </div>
+                        <div class="mat_card-button">
+                            <button class="mat_raised"  >
+                                Start
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="javascript_page">
+                    <div class="javascript-card_right">
+    <p>Quizz</p>
+    <div class="javascript-card_title"><h3>Javascript Fundamentals</h3></div>
+    <p class="questionss">Frontend questions</p>
+    
+                    </div>
+                    <div class="javascript-card_left">
+                        <div class="questions_texts">
+                            <p>30 questions</p>
+                            <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+                        </div>
+                        <div class="titles-cards">
+                            <h3>Javascript & HTML</h3>
+                        </div>
+                        <div class="mat_card-button">
+                            <button class="mat_raised"  >
+                                Start
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_card-1">
+                <div class="java_page">
+                    <div class="java-card_right">
+    <p>Quizz</p>
+    <div class="java-card_title"><h3>Java Fundamentals</h3></div>
+    <p class="questionss">Backend questions</p>
+    
+                    </div>
+                    <div class="java-card_left">
+                        <div class="questions_texts">
+                            <p>30 questions</p>
+                            <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+                        </div>
+                        <div class="titles-cards">
+                            <h3>Java & Spring</h3>
+                        </div>
+                        <div class="mat_card-button">
+                            <button class="mat_raised"  >
+                                Start
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="found_page">
+                    <div class="found-card_right">
+    <p>Quizz</p>
+    <div class="found-card_title"><h3>Foundation Fundamentals</h3></div>
+    <p class="questionss">Frontend questions</p>
+    
+                    </div>
+                    <div class="found-card_left">
+                        <div class="questions_texts">
+                            <p>50 questions</p>
+                            <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+                        </div>
+                        <div class="titles-cards">
+                            <h3>HTML & CSS & SCSS </h3>
+                        </div>
+                        <div class="mat_card-button">
+                            <button routerLink="/found" class="mat_raised"  >
+                                Start
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
