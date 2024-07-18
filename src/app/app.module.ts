@@ -30,6 +30,10 @@ import { ImageCropperComponent } from 'ngx-image-cropper';
 import { CropperImgComponent } from './cropper-img/cropper-img.component';
 import { DialogDataComponent } from './dialog-data/dialog-data.component';
 import { HttpClientModule } from '@angular/common/http';
+import { Found18Component } from './found18/found18.component';
+import { Found19Component } from './found19/found19.component';
+import { Found20Component } from './found20/found20.component';
+import { Found21Component } from './found21/found21.component';
 
 
 @NgModule({
@@ -57,6 +61,10 @@ import { HttpClientModule } from '@angular/common/http';
     Found17Component,
     CropperImgComponent,
     DialogDataComponent,
+    Found18Component,
+    Found19Component,
+    Found20Component,
+    Found21Component,
   
   ],
   imports: [

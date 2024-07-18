@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-found17',
-  templateUrl: './found17.component.html',
-  styleUrls: ['./found17.component.scss']
+  selector: 'app-found18',
+  templateUrl: './found18.component.html',
+  styleUrls: ['./found18.component.scss']
 })
-export class Found17Component {
+export class Found18Component {
   data:number=0;
   test:boolean=false;
   constructor(private router:Router){
@@ -25,7 +25,8 @@ export class Found17Component {
 this.data+=1;
   }
   goQuiz(){
-    this.router.navigate(['/found18']);
+    this.router.navigate(['/found19']);
   }
-  span:string="<span>"
+
+  
 }

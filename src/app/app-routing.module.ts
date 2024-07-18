@@ -19,6 +19,9 @@ import { Found14Component } from './found14/found14.component';
 import { Found15Component } from './found15/found15.component';
 import { Found16Component } from './found16/found16.component';
 import { Found17Component } from './found17/found17.component';
+import { Found18Component } from './found18/found18.component';
+import { Found19Component } from './found19/found19.component';
+import { Found20Component } from './found20/found20.component';
 
 const routes: Routes = [
   {path:'modul',component:ModulComponent},
@@ -40,7 +43,10 @@ const routes: Routes = [
   {path:'found14',component:Found14Component},
   {path:'found15',component:Found15Component},
   {path:'found16',component:Found16Component},
-  {path:'found17',component:Found17Component}
+  {path:'found17',component:Found17Component},
+  {path:'found18',component:Found18Component},
+  {path:'found19',component:Found19Component},
+  {path:'found20',component:Found20Component}
 
 ];
 
